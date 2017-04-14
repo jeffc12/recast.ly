@@ -1,7 +1,8 @@
-var Nav = () => (
+var Nav = ({currentChange}) => (
   <nav className="navbar">
     <div className="col-md-6 col-md-offset-3">
-      <Search />
+      <Search
+      currentChange={currentChange}/>
     </div>
   </nav>
 );
